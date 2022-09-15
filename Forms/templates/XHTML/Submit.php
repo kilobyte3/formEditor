@@ -1,0 +1,1 @@
+<input type="submit"<?php echo $attributes ?> />
