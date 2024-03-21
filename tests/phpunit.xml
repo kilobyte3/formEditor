@@ -1,0 +1,35 @@
+<phpunit bootstrap="../autoload.php" colors="true">
+  <testsuites>
+    <testsuite name="tests">
+      <file>src/Factories/ComponentsFactoryTest.php</file>
+      <file>src/Factories/RenderersFactoryTest.php</file>
+      <file>src/Forms/Components/BrTest.php</file>
+      <file>src/Forms/Components/ButtonTest.php</file>
+      <file>src/Forms/Components/CheckboxTest.php</file>
+      <file>src/Forms/Components/FieldsetTest.php</file>
+      <file>src/Forms/Components/FormTest.php</file>
+      <file>src/Forms/Components/InputTest.php</file>
+      <file>src/Forms/Components/LabelTest.php</file>
+      <file>src/Forms/Components/LegendTest.php</file>
+      <file>src/Forms/Components/NumericTest.php</file>
+      <file>src/Forms/Components/OptionTest.php</file>
+      <file>src/Forms/Components/PasswordTest.php</file>
+      <file>src/Forms/Components/RadioTest.php</file>
+      <file>src/Forms/Components/SelectTest.php</file>
+      <file>src/Forms/Components/SubmitTest.php</file>
+      <file>src/Forms/Components/TextareaTest.php</file>
+      <file>src/Forms/Renderers/HTML5rendererTest.php</file>
+      <file>src/Forms/Renderers/XHTMLrendererTest.php</file>
+      <file>src/Forms/Renderers/RendererTest.php</file>
+      <file>src/CoreTest.php</file>
+    </testsuite>
+  </testsuites>
+  <filter>
+    <whitelist>
+      <directory suffix=".php">../</directory>
+      <exclude>
+        <directory>../tests</directory>
+      </exclude>
+    </whitelist>
+  </filter>
+</phpunit>

@@ -1,0 +1,147 @@
+body
+{
+    font-family: fantasy;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.left
+{
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#treeView
+{
+    float: left;
+    background-color: green;
+    width: 10%;
+    min-width: 50px;
+}
+
+#components
+{
+    padding: 8px;
+    background-color: #FBFC94;
+    box-shadow: 0px 0px 5px #888888;
+    margin: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#workspace
+{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: left;
+}
+#workspace_center
+{
+    background-color: #BFD9D1;
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 400px;
+    overflow-y: auto;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+#workspace_left
+{
+    background-color: #D5DDDD;
+    float: left;
+    width: 200px;
+    position: relative;
+    margin-left: -100%;
+    right: 200px;
+    height: 400px;
+    overflow-y: auto;
+    -webkit-border-top-right-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomright: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#workspace_right
+{
+    background-color: #D5DDDD;
+    float: left;
+    width: 200px;
+    position: relative;
+    margin-right: -100%;
+    height: 400px;
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#test
+{
+    border: solid 1px black;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: 0px 10px 10px #888888;
+}
+
+.componentButton
+{
+    background-color: yellowgreen;
+}
+
+.hidden
+{
+    display: none;
+}
+
+#form_json
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 322px;
+}
+
+.error
+{
+    background-color: red;
+    padding: 10px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.propertyEditor
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.propertyEditor tr td
+{
+    border: 1px dotted black;
+    background-color: #B6C6C5;
+}
+.propertyEditor_title1
+{
+    background-color: #999B9B !important;
+    font-weight: bold;
+    text-align: center;
+}
+.propertyEditor_title2
+{
+    background-color: #A0ACAB !important;
+    text-align: center;
+}

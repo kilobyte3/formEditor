@@ -1,0 +1,1 @@
+<legend<?php echo $attributes ?>><?php echo $properties['caption']; ?></legend>

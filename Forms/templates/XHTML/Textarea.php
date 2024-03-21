@@ -1,0 +1,1 @@
+<textarea<?php echo $attributes ?>><?php echo $properties['value']; ?></textarea>

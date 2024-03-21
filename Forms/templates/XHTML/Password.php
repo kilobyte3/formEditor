@@ -1,0 +1,1 @@
+<input type="password"<?php echo $attributes ?> />
